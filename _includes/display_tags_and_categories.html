@@ -1,0 +1,32 @@
+{% if post %}
+    {% assign categories = post.categories %}
+    {% assign tags = post.tags %}
+{% else %}
+  {% assign categories = page.categories %}
+  {% assign tags = page.tags %}
+{% endif %}
+
+<div class="post-categories">
+  Categories:
+  {% for category in categories %}
+    {% if category == "aws" %}
+      {% assign badge_type = "badge-warning" %}
+    {% elsif category == "kubernetes" %}
+      {% assign badge_type = "badge-primary" %}
+    {% elsif category == "terraform" %}
+      {% assign badge_type = "badge-danger" %}
+    {% else %}
+      {% assign badge_type = "badge-secondary" %}
+    {% endif %}
+
+    <a class="badge {{ badge_type }}" href="{{ site.url }}/category/{{ category | slugize }}">{{ category }}</a>
+  {% endfor %}
+</div>
+
+<div class="post-tags">
+  Tags:
+  {% for tag in tags %}
+    <a class="badge badge-dark" href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+</div>
+<br/>
