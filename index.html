@@ -1,0 +1,90 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <span class="post-date">{{ post.date | date_to_long_string }}</span>
+    {% include display_tags_and_categories.html %}
+    {{ post.excerpt }}
+    <p><a href="{{ post.url }}#read-more" role="button">Read more <i class="fa fa-angle-double-right"></i></a></p>
+  </div>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+
+  {% assign trail_behind = 2 %}
+  {% assign trail_ahead = 2 %}
+  {% assign num_shown_when_start_active = 3 %}
+  {% assign num_shown_when_end_active = 3 %}
+
+  {% assign start = paginator.page | minus: trail_behind %}
+  {% assign end = paginator.page | plus: trail_ahead %}
+
+  {% if start < 1 %}
+    {% assign start = 1 %}
+    {% assign end = start | plus: num_shown_when_start_active %}
+  {% elsif end > paginator.total_pages %}
+    {% assign start = paginator.total_pages | minus: num_shown_when_end_active %}
+    {% assign end = paginator.total_pages %}
+  {% endif %}
+
+  {% if start < 1 %}
+    {% assign start = 1 %}
+  {% endif %}
+
+  {% if end > paginator.total_pages %}
+    {% assign end = paginator.total_pages %}
+  {% endif %}
+
+  {% assign end_minus_one = paginator.total_pages | minus: 1 %}
+
+  {% assign previous_button = '<i class="fa fa-angle-double-left"></i>' %}
+  {% assign next_button = '<i class="fa fa-angle-double-right"></i>' %}
+
+<div class="pagination-wrapper">
+  <ul class="pagination justify-content-center">
+    {% comment %}Hack: first list element is getting weird margin so add a hidden no-op one.{% endcomment %}
+    <li class="page-item" style="display: none;"></li>
+  {% if paginator.previous_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ previous_button }}</a></li>
+  {% else %}
+    <li class="page-item disabled"><span class="page-link">{{ previous_button }}</span></li>
+  {% endif %}
+
+  {% if start > 1 %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/">1</a></li>
+  {% endif %}
+  {% if start > 2 %}
+    <li class="page-item disabled"><span class="page-link">&middot;&middot;&middot;</span></li>
+  {% endif %}
+
+  {% for page in (start..end) %}
+    {% if page == paginator.page %}
+    <li class="page-item active"><a class="page-link" href="#">{{ page }} <span class="sr-only">(current)</span></a></li>
+    {% elsif page == 1 %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/">{{ page }}</a></li>
+    {% else %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if end < end_minus_one %}
+    <li class="page-item disabled"><span class="page-link">&middot;&middot;&middot;</span></li>
+  {% endif %}
+  {% if end < paginator.total_pages %}
+    <li class="page-item"><a class="page-link" href="{{ site.baseurl }}/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a></li>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ next_button }}</a></li>
+  {% else %}
+    <li class="page-item disabled"><span class="page-link">{{ next_button }}</span></li>
+  {% endif %}
+  </ul>
+</div>
+{% endif %}
