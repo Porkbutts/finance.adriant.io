@@ -2,7 +2,7 @@
 layout: post
 title: Buy SaaS companies during the pandemic
 categories: stocks
-tags: stocks options tech saas covid-19
+tags: stocks tech saas covid-19
 ---
 
 During the Covid-19 pandemic, certain industries have been hit harder than others. Many companies in the retail, airline, oil and banking industries are all down more than 50% from their 2020 highs in February. But while the Covid-19 virus has wreaked havoc on some industries, others such as cloud software and biopharma are thriving more than ever.
