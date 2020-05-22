@@ -1,17 +1,17 @@
 environment: production
 
 theme: jekyll-theme-primer
-url: "https://subtlepurpose.com"
+url: "https://elaborateguy.com"
 
 author:
   name: Adrian Teng-Amnuay
   email: pumpadrian@gmail.com
 
-title: subtlepurpose
-description: A software development blog for cloud and DevOps.
+title: elaborateguy
+description: A finance blog.
 
-google_analytics: UA-117405938-2
-google_adsense: ca-pub-3521905629903035
+google_analytics: UA-117405938-3
+# google_adsense: ca-pub-3521905629903035
 
 plugins:
 - jekyll-sitemap
