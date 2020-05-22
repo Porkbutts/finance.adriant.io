@@ -1,6 +1,6 @@
-# subtlepurpose.com
+# elaborateguy.com
 
-**subtlepurpose** is my personal DevOps blog built using Jekyll and hosted on Github-pages.
+**elaborateguy** is my personal finance blog built using Jekyll and hosted on Github-pages.
 
 ## Installation
 - You must have **ruby** installed. **rvm** or some kind of Ruby version manager is recommended.
