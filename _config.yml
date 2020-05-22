@@ -12,6 +12,7 @@ description: A finance blog for millenials and gen-z
 
 google_analytics: UA-117405938-3
 # google_adsense: ca-pub-3521905629903035
+disqus_forum_name: elaborateguycom
 
 plugins:
 - jekyll-sitemap
