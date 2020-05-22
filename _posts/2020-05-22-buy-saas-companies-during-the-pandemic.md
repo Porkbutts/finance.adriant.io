@@ -25,4 +25,4 @@ Rather than bet on that uncertainty, I would rather make a bet that cloud softwa
 I don't think so &mdash; at least not yet anyway. While the valuations of many of these companies has skyrocketted to all-time highs, it may be justified as they will continue to beat revenue and earnings expectations, and accelerate customer acquisition over the next few years. Their markets are far from saturated and there is plenty of room for growth.
 
 ## Final Thoughts
-Solid companies that have comprised most of the gains in the S&P500 index include the FANGMA stocks (FB, AAPL, NFLX, GOOG, MSFT, AMZN). Non-megacap companies that I'm following and willing to make bullish bets on include WORK, ZM, WDAY, NEWR, DDOG, FSLY, TWLO, OKTA, NOW, FIVN, SPLK, PD, SHOP, DOCU, and MDB. Thanks for reading!
+Solid companies that have comprised most of the gains in the S&P500 index include the FANGMA stocks (FB, AAPL, NFLX, GOOG, MSFT, AMZN). Non-megacap companies that I'm following and willing to make bullish bets on include WORK, ZM, WDAY, NEWR, DDOG, FSLY, TWLO, OKTA, NOW, FIVN, SPLK, PD, SHOP, DOCU, and MDB.
