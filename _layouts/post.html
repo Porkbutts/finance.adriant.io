@@ -9,6 +9,8 @@ excerpt_separator: <!--more-->
   {{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
 </div>
 
+{% include disclaimer.html %}
+
 {% include related_posts.html %}
 
 {% if site.environment == "production" and page.comments %}
