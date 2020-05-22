@@ -9,11 +9,11 @@
 <div class="post-categories">
   Categories:
   {% for category in categories %}
-    {% if category == "aws" %}
+    {% if category == "yellow" %}
       {% assign badge_type = "badge-warning" %}
-    {% elsif category == "kubernetes" %}
+    {% elsif category == "stocks" %}
       {% assign badge_type = "badge-primary" %}
-    {% elsif category == "terraform" %}
+    {% elsif category == "red" %}
       {% assign badge_type = "badge-danger" %}
     {% else %}
       {% assign badge_type = "badge-secondary" %}
