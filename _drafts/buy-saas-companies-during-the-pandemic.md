@@ -12,6 +12,10 @@ As a software developer, I am seeing first-hand how my company has not only been
  <!--more-->
 
 ## Not all tech companies alike
+Companies like Uber, Lyft, Yelp, and Airbnb have all been hit hard by the pandemic. 
+
+
+
 Some tech companies offer services directly to individual consumers, while others offer services to businesses (B2B). Some companies provide services to both businesses and individuals.
 
 Tech companies can offer services directly to consumers like Uber, Lyft, Etsy, Roku, but there are tech companies that offer services to businesses (B2B) such as Shopify, Zoom, Datadog, Fastly, Twilio. There has been real money made on these B2B software companies.
