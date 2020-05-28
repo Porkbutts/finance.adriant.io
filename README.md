@@ -10,6 +10,7 @@ $ gem install bundler
 ```
 - Install the gems from Gemfile using `bundle` command.
 
+
 ## Run locally
 ```
 # Run dev environment with drafts, livereload and without analytics, comments, ads
@@ -18,6 +19,9 @@ $ script/serve-dev
 # Run a production build
 $ script/serve-prod
 ```
+
+### Known Issues
+Seems like `livereload` doesn't work on Windows and I already tried the suggestion from [this blog](https://httpain.com/blog/jekyll-live-reload-windows/). So just disable it for now.
 
 ## Collect tags from posts and create the layouts
 This script scans posts for tags and then creates a tag HTML file for each.
