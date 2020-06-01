@@ -39,15 +39,15 @@ Suppose I have bullish outlook on CMG and I want to buy the CMG 1055 call expiri
 
 To create a spread, I might buy the 1055 call for $14.50 and sell the 1065 call for $9.30. My net debit would then be **$520** = ($14.50 - $9.30) x 100. My maximum profit would be **$480** = ($1065 - $1055) x 100 - $520. Since I am basically long the debit spread, my max loss is just the premium paid.
 
-A debit put spread, or bear put spread is basically the same idea as the debit call spread, where you find a put option you want to buy and then modify it into a debit put spread by selling a further OTM put.
+A debit put spread, or bear put spread is basically the same idea as the bull call spread, where you find a put option you want to buy and then modify it into a debit put spread by selling a further OTM put.
 
 ### Credit Spread
 
-A **credit** means that you receive money when you open the position. Your profit would be determined by whether you can close out that position for less than you initially received. A credit spread is a selling strategy, just like selling a call or a put. Selling strategies allow you to take advantage of time decay and can be more attractive than buying strategies when premiums are higher than they should be. Unfortunately, selling naked options will expose your portfolio to the risk of substantial losses, and the only other basic selling strategies, the covered call and cash-covered put, require much more capital than buying strategies.
+A **credit** means that you receive money when you open the position. Your profit would be determined by whether you can close out that position for less than what you initially received. A credit spread is a selling strategy, just like selling a call or a put. Selling strategies allow you to take advantage of time decay and can be more attractive than buying strategies when premiums are higher than they should be. Unfortunately, selling naked options will expose your portfolio to the risk of substantial losses, and the only other basic selling strategies, the covered call and cash-covered put, require much more capital than buying strategies.
 
 The credit spread addresses both of these drawbacks, allowing us to consider sell strategies while maintaining lower capital outlays. To construct a credit spread, sell one option and buy a further out-the-money option with the same expiration date. You can think of the long option as a kind of insurance which caps your losses if the stock price moves against you. The maximum profit of the trade is the net credit received from the trade and is only realized when both the options expire worthless. The maximum loss of this strategy is the difference in strike prices less the credit received.
 
-Let's take a look an example with CMG again.
+Let's take a look at an example with CMG again.
 
 {% include image.html file="cmg-bear-call-spread.png" %}
 
