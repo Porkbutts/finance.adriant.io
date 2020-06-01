@@ -11,6 +11,8 @@
   {% for category in categories %}
     {% if category == "yellow" %}
       {% assign badge_type = "badge-warning" %}
+    {% elsif category == "trading" %}
+      {% assign badge_type = "badge-success" %}
     {% elsif category == "stocks" %}
       {% assign badge_type = "badge-primary" %}
     {% elsif category == "red" %}

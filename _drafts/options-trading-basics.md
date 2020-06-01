@@ -5,7 +5,7 @@ categories: stocks
 tags: options
 ---
 
-The goal of this article is to give you the ten minute rundown on options.
+An option gives you the right, but not the obligation to buy or sell stock at a predetermined price by a certain date. Let's break that down further.
 
  <!--more-->
 
