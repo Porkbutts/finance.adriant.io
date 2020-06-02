@@ -50,6 +50,14 @@ Hello I'm here to talk about s3 and eks.
 
 When the post is ready to be published, move it to `_posts`.
 
+## \_includes helpers
+
+### image.html
+Use this to embed an image.
+```
+{% include image.html file=FILE[, alt=ALT, width=WIDTH, height=HEIGHT] %}
+```
+
 ## Adding new gems
 ```
 $ bundle add <gem>
