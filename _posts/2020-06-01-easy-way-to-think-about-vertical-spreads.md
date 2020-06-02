@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Easy way to think about vertial spreads
+title: Easy way to think about vertical spreads
 categories: trading
 tags: options
 ---
