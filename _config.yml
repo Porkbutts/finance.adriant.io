@@ -18,6 +18,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-paginate
 - jekyll-feed
+- jekyll-redirect-from
 
 feed:
   path: atom.xml
