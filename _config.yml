@@ -1,6 +1,6 @@
 environment: production
 
-theme: jekyll-theme-primer
+theme: jekyll-theme-cayman
 url: "https://finance.adriant.io"
 
 author:
