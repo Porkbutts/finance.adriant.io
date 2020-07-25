@@ -25,13 +25,12 @@ $ script/serve-prod
 ### Known Issues
 Seems like `livereload` doesn't work on Windows and I already tried the suggestion from [this blog](https://httpain.com/blog/jekyll-live-reload-windows/). So just disable it for now.
 
-## Collect tags from posts and create the layouts
-This script scans posts for tags and then creates a tag HTML file for each.
-```
-$ script/update_tags
-```
+## Deployment
+Commits to the `master` branch will automatically trigger CI/CD defined in the [Github Actions](./.github/workflows/github-pages.yml). This will collect tags, build the jekyll site and commit the static site to the `gh-pages` branch.
 
-## Drafting Posts
+## Contributing
+
+### Drafting Posts
 Add to `_drafts` with the file name format `YYYY-mm-dd-name-of-post.md`
 
 Here's an example post. It should include the category, comma-delimitted tags,
@@ -52,15 +51,15 @@ Hello I'm here to talk about s3 and eks.
 
 When the post is ready to be published, move it to `_posts`.
 
-## \_includes helpers
+### \_includes helpers
 
-### image.html
+#### image.html
 Use this to embed an image.
 ```
 {% include image.html file=FILE[, alt=ALT, width=WIDTH, height=HEIGHT] %}
 ```
 
-## Adding new gems
+### Adding new gems
 ```
 $ bundle add <gem>
 ```
