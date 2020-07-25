@@ -1,6 +1,6 @@
-# elaborateguy.com
+# finance.adriant.io
 
-**elaborateguy** is my personal finance blog built using Jekyll and hosted on Github-pages.
+**finance.adriant.io** is my personal finance blog built using Jekyll and hosted on Github-pages.
 
 ## Installation
 - You must have **ruby** installed. **rvm** or some kind of Ruby version manager is recommended.
