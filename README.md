@@ -4,23 +4,16 @@
 
 <https://finance.adriant.io> is my personal finance blog built using Jekyll and hosted on Github-pages.
 
-## Installation
-- You must have **ruby** installed. **rvm** or some kind of Ruby version manager is recommended.
-- You must have **bundler2**. You can install with
-```
-$ gem install bundler
-```
-- Install the gems from Gemfile using `bundle` command.
+## Run the web application
 
-
-## Run locally
 ```
-# Run dev environment with drafts, livereload and without analytics, comments, ads
-$ script/serve-dev
-
-# Run a production build
-$ script/serve-prod
+docker-compose up
 ```
+
+For convenience use the provided `docker-compose` script which performs the following steps:
+1. Builds the Docker image from the [Dockerfile](./Dockerfile)
+2. Mounts the current directory into the Docker container working directory to enable `livereload`
+3. Exposes the application port `4000` and livereload port `35729`
 
 ### Known Issues
 Seems like `livereload` doesn't work on Windows and I already tried the suggestion from [this blog](https://httpain.com/blog/jekyll-live-reload-windows/). So just disable it for now.
