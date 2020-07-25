@@ -1,4 +1,6 @@
-# finance.adriant.io ![Build and deploy Jekyll site to GitHub Pages](https://github.com/Porkbutts/finance.adriant.io/workflows/Build%20and%20deploy%20Jekyll%20site%20to%20GitHub%20Pages/badge.svg)
+![Build and deploy Jekyll site to GitHub Pages](https://github.com/Porkbutts/finance.adriant.io/workflows/Build%20and%20deploy%20Jekyll%20site%20to%20GitHub%20Pages/badge.svg)
+
+# finance.adriant.io
 
 <https://finance.adriant.io> is my personal finance blog built using Jekyll and hosted on Github-pages.
 
