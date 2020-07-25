@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
-      - run: python ./script/update_tags
+      - run: python --version
+      - name: Collect tags from posts
+        run: python ./script/update_tags
       - uses: helaili/jekyll-action@2.0.1
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
