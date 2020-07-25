@@ -23,7 +23,7 @@ plugins:
 feed:
   path: atom.xml
 
-exclude: [vendor, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, script]
+exclude: [vendor, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, bin]
 
 excerpt_separator: <!--more-->
 
