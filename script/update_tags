@@ -26,6 +26,9 @@ def create_tag_file(tag):
 if __name__ == '__main__':
   clean_tag_files()
 
+  if not os.path.exists(TAGS_DIR):
+    os.makedirs(TAGS_DIR)
+
   for filename in os.listdir(POSTS_DIR):
 
     if filename.startswith('.'):
