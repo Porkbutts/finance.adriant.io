@@ -56,7 +56,19 @@ So what's the catch? While your contributions are tax deductible, and earnings a
 ## Investment Options
 Once you've contributed money to the account, the next step is to invest those funds.
 
-With a 401k plan, your investment options are somewhat limited which should make it an easier choice.
+With a 401k plan, your investment options are somewhat limited which should make it an easier choice. For those who want an easy "set it and forget it" option, I recommend **Target Date Funds** which are common in 401k accounts.
+
+### Target Date Funds
+
+A target date fund has an associated year which is your estimated retirement year. What a target date fund does essentially, is start out with a relatively aggressive growth strategy, which then scales more conservatively as the years go on.
+
+The idea is that when you have a long time until retirement, you can probably handle more volatility and risk in exchange for more growth potential, since you probably won't need the funds in your 401k immediately, and can stand to ride out any market downturns which could last up to several years.
+
+As you approach your retirement date, you would care less about aggressively growing your investment account, and more about generating consistent fixed income from your retirement nest egg.
+
+### Passive Index Mutual Funds
+
+The next option 
 
 
 
