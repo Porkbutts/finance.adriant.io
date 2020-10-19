@@ -22,7 +22,7 @@ Seems like `livereload` doesn't work on Windows and I already tried the suggesti
 Commits to the `master` branch will automatically trigger CI/CD defined in the [Github Actions](./.github/workflows/github-pages.yml). This will collect tags, build the jekyll site and commit the static site to the `gh-pages` branch.
 
 # Contributing
-
+	
 ## Drafting Posts
 Add to `_drafts` with the file name format `YYYY-mm-dd-name-of-post.md`
 
@@ -30,7 +30,7 @@ Here's an example post. It should include the category, comma-delimitted tags,
 and optionally a read more separator.
 
 ```
----
+# ---
 layout: post
 categories: aws kubernetes
 tags: s3 eks
