@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://finance.adriant.io/atom.xml" rel="self" type="application/atom+xml" /><link href="https://finance.adriant.io/" rel="alternate" type="text/html" /><updated>2021-05-20T18:00:45+00:00</updated><id>https://finance.adriant.io/atom.xml</id><title type="html">personal finance</title><subtitle>a blog on financial freedom, early retirement, trading and investing ideas for millenials and zoomers</subtitle><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><entry><title type="html">Using an ETF screener to find desired holdings</title><link href="https://finance.adriant.io/investing/2020/06/17/using-an-etf-screener-to-find-etf-with-desired-holdings/" rel="alternate" type="text/html" title="Using an ETF screener to find desired holdings" /><published>2020-06-17T00:00:00+00:00</published><updated>2020-06-17T00:00:00+00:00</updated><id>https://finance.adriant.io/investing/2020/06/17/using-an-etf-screener-to-find-etf-with-desired-holdings</id><content type="html" xml:base="https://finance.adriant.io/investing/2020/06/17/using-an-etf-screener-to-find-etf-with-desired-holdings/">&lt;p&gt;About a month ago I talked about &lt;a href=&quot;/investing/2020/05/22/buy-saas-companies-during-the-pandemic/&quot;&gt;why I was buying SaaS and cloud stocks during the pandemic&lt;/a&gt;. One of the things I wanted to be able to analyze and monitor, was the overall technical action of the cluud and SaaS stock category, similar to how one might look at the &lt;strong&gt;SPY&lt;/strong&gt; or &lt;strong&gt;QQQ&lt;/strong&gt; ETFs, which track the S&amp;amp;P500 and Nasdaq-100 indexes respectively, to get a sense of the overall market.&lt;/p&gt;
+
+&lt;p&gt;At first I looked up cloud stock ETFs but it was difficult to sift through the sheer number of ETFs which all seemed to contain the stocks I was interested in, along with a whole bunch of stocks I wasn’t interested in.&lt;/p&gt;
+
+&lt;p&gt;I soon realized that instead of looking through individual ETFs and their holdings, I could do a reverse lookup using an ETF screener to find ETFs containing the stocks I was interested in. Several of the sites I found could only filter ETFs by a single stock at a time, which wouldn’t have been very practical given that I wanted to find an ETF containing several stocks. Eventually I stumbled upon &lt;a href=&quot;https://www.etfchannel.com/finder/&quot;&gt;https://www.etfchannel.com/finder/&lt;/a&gt; which solved my problem perfectly, allowing me to screen ETFs by up to 40 stocks.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example query which is pretty close to what I used last month: &lt;a href=&quot;https://www.etfchannel.com/finder/?symbol=DOCU%2CWORK%2CZM%2CCOUP%2CDDOG%2CFSLY%2CTWLO%2CSPLK%2CWDAY%2CCLDR&quot;&gt;https://www.etfchannel.com/finder/?symbol=DOCU%2CWORK%2CZM%2CCOUP%2CDDOG%2CFSLY%2CTWLO%2CSPLK%2CWDAY%2CCLDR&lt;/a&gt; and the corresponding search results.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/etf-finder-results.png&quot;&gt;&lt;img src=&quot;/assets/img/etf-finder-results.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The search results are sorted by the number of stocks belonging to the ETF, and then what percentage of the ETF those holdings make up. The first two ETFs, &lt;strong&gt;VTI&lt;/strong&gt; and &lt;strong&gt;ITOT&lt;/strong&gt; actually contain 9 out of the 10 stocks in my search query, but those stocks only make up a small percentage of the ETF, 0.50% and 0.45% respectively. The third ETF, &lt;strong&gt;WCLD&lt;/strong&gt; includes 8 out of the 10 stocks, but these results make up 21.50% of the ETF, heavily weighted toward the stocks in my search, which is exactly what I am looking for.&lt;/p&gt;
+
+&lt;p&gt;After discovering &lt;strong&gt;WCLD&lt;/strong&gt; I have been monitoring the technicals to get a sense for market sentiment and demand for cloud and SaaS stocks which has worked out wonderfully for me. Although I don’t own &lt;strong&gt;WCLD&lt;/strong&gt; yet, I like this idea of being able to use an ETF screener to target a niche category of stocks, and it’s something I’ll likely use again in the future.&lt;/p&gt;</content><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><category term="investing" /><category term="etf" /><category term="stocks" /><summary type="html">About a month ago I talked about why I was buying SaaS and cloud stocks during the pandemic. One of the things I wanted to be able to analyze and monitor, was the overall technical action of the cluud and SaaS stock category, similar to how one might look at the SPY or QQQ ETFs, which track the S&amp;amp;P500 and Nasdaq-100 indexes respectively, to get a sense of the overall market. At first I looked up cloud stock ETFs but it was difficult to sift through the sheer number of ETFs which all seemed to contain the stocks I was interested in, along with a whole bunch of stocks I wasn’t interested in. I soon realized that instead of looking through individual ETFs and their holdings, I could do a reverse lookup using an ETF screener to find ETFs containing the stocks I was interested in. Several of the sites I found could only filter ETFs by a single stock at a time, which wouldn’t have been very practical given that I wanted to find an ETF containing several stocks. Eventually I stumbled upon https://www.etfchannel.com/finder/ which solved my problem perfectly, allowing me to screen ETFs by up to 40 stocks. Here’s an example query which is pretty close to what I used last month: https://www.etfchannel.com/finder/?symbol=DOCU%2CWORK%2CZM%2CCOUP%2CDDOG%2CFSLY%2CTWLO%2CSPLK%2CWDAY%2CCLDR and the corresponding search results. The search results are sorted by the number of stocks belonging to the ETF, and then what percentage of the ETF those holdings make up. The first two ETFs, VTI and ITOT actually contain 9 out of the 10 stocks in my search query, but those stocks only make up a small percentage of the ETF, 0.50% and 0.45% respectively. The third ETF, WCLD includes 8 out of the 10 stocks, but these results make up 21.50% of the ETF, heavily weighted toward the stocks in my search, which is exactly what I am looking for. After discovering WCLD I have been monitoring the technicals to get a sense for market sentiment and demand for cloud and SaaS stocks which has worked out wonderfully for me. Although I don’t own WCLD yet, I like this idea of being able to use an ETF screener to target a niche category of stocks, and it’s something I’ll likely use again in the future.</summary></entry><entry><title type="html">Basic trading terms to know</title><link href="https://finance.adriant.io/trading/2020/06/01/basic-trading-terms-to-know/" rel="alternate" type="text/html" title="Basic trading terms to know" /><published>2020-06-01T00:00:00+00:00</published><updated>2020-06-01T00:00:00+00:00</updated><id>https://finance.adriant.io/trading/2020/06/01/basic-trading-terms-to-know</id><content type="html" xml:base="https://finance.adriant.io/trading/2020/06/01/basic-trading-terms-to-know/">&lt;p&gt;Knowing trading lingo will not magically improve your investing game, but it will give you the tools to communicate and search for ideas that resonate with your short-term and long-term investing beliefs. Here are some of the basics you should know:&lt;/p&gt;
+
+&lt;h3 id=&quot;bull-noun-bullish-adjective&quot;&gt;bull &lt;em&gt;noun&lt;/em&gt;, bullish &lt;em&gt;adjective&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;A bull is someone who believes a stock will go up in price. Bulls hold an optimistic view on a particular stock. You have a &lt;em&gt;bullish&lt;/em&gt; view on a stock if you believe the price will go up. &lt;em&gt;Bullish&lt;/em&gt; trading strategies assume the stock price will rise.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; I’m feeling bullish on TSLA.&lt;/p&gt;
+
+&lt;h3 id=&quot;bear-noun-bearish-adjective&quot;&gt;bear &lt;em&gt;noun&lt;/em&gt;, bearish &lt;em&gt;adjective&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;A bear is someone who believes a stock will go down in price. Bears hold a pessimistic view on a particular stock. You have a &lt;em&gt;bearish&lt;/em&gt; view on a stock if you believe the price will go down. &lt;em&gt;Bearish&lt;/em&gt; trading strategies assume the stock price will drop.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; The bears have taken over recently.&lt;/p&gt;
+
+&lt;h3 id=&quot;long-adjective&quot;&gt;long &lt;em&gt;adjective&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Being long a security essentially means buying and owning the security. If you buy shares of APPL, you are long apple. If you buy a call option, you own a long call.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Buy the long call.&lt;/p&gt;
+
+&lt;h3 id=&quot;short-noun-adjective-verb&quot;&gt;short &lt;em&gt;noun, adjective, verb&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Being short a security typically means you borrowed a security from your broker and now have an obligation to return it. If you &lt;em&gt;sell short&lt;/em&gt; 100 shares of APPL stock, you borrow the 100 shares from your broker, sell the shares, and now owe the broker 100 shares of APPL stock. This could also refer to a person who shorts a stock.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; I’m short AAPL. I sold short 100 shares of AAPL. The AAPL shorts are out in full force.&lt;/p&gt;
+
+&lt;h3 id=&quot;open-a-position-verb&quot;&gt;open (a position) &lt;em&gt;verb&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Opening a position refers to establishing a new trade by buying a security, or selling short a security.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Buy to open one call, or sell to open one call.&lt;/p&gt;
+
+&lt;h3 id=&quot;close-a-position-verb&quot;&gt;close (a position) &lt;em&gt;verb&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Closing a position refers to selling a security that was previously purchased, or buying back a security which was previously sold short. The act of closing a position effectively cancels out the open position.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Sell to close one call, or buy to close one call.&lt;/p&gt;
+
+&lt;h3 id=&quot;debit-noun&quot;&gt;debit &lt;em&gt;noun&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;A debit is a price paid for opening a position, most commonly the price you pay for buying a security.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; Purchase one debit spread.&lt;/p&gt;
+
+&lt;h3 id=&quot;credit-noun&quot;&gt;credit &lt;em&gt;noun&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;A credit is money received at the outset for opening a position. Money would be paid back when the position is closed, resulting in a net profit if the amount paid back was less than the credit received, or a net loss if the amount paid back was more than the credit received.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Example:&lt;/em&gt; You receive a credit when you short stock.&lt;/p&gt;</content><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><category term="trading" /><category term="stocks" /><category term="options" /><category term="terms" /><summary type="html">Knowing trading lingo will not magically improve your investing game, but it will give you the tools to communicate and search for ideas that resonate with your short-term and long-term investing beliefs. Here are some of the basics you should know: bull noun, bullish adjective A bull is someone who believes a stock will go up in price. Bulls hold an optimistic view on a particular stock. You have a bullish view on a stock if you believe the price will go up. Bullish trading strategies assume the stock price will rise. Example: I’m feeling bullish on TSLA. bear noun, bearish adjective A bear is someone who believes a stock will go down in price. Bears hold a pessimistic view on a particular stock. You have a bearish view on a stock if you believe the price will go down. Bearish trading strategies assume the stock price will drop. Example: The bears have taken over recently. long adjective Being long a security essentially means buying and owning the security. If you buy shares of APPL, you are long apple. If you buy a call option, you own a long call. Example: Buy the long call. short noun, adjective, verb Being short a security typically means you borrowed a security from your broker and now have an obligation to return it. If you sell short 100 shares of APPL stock, you borrow the 100 shares from your broker, sell the shares, and now owe the broker 100 shares of APPL stock. This could also refer to a person who shorts a stock. Example: I’m short AAPL. I sold short 100 shares of AAPL. The AAPL shorts are out in full force. open (a position) verb Opening a position refers to establishing a new trade by buying a security, or selling short a security. Example: Buy to open one call, or sell to open one call. close (a position) verb Closing a position refers to selling a security that was previously purchased, or buying back a security which was previously sold short. The act of closing a position effectively cancels out the open position. Example: Sell to close one call, or buy to close one call. debit noun A debit is a price paid for opening a position, most commonly the price you pay for buying a security. Example: Purchase one debit spread. credit noun A credit is money received at the outset for opening a position. Money would be paid back when the position is closed, resulting in a net profit if the amount paid back was less than the credit received, or a net loss if the amount paid back was more than the credit received. Example: You receive a credit when you short stock.</summary></entry><entry><title type="html">Easy way to think about vertical spreads</title><link href="https://finance.adriant.io/trading/2020/06/01/easy-way-to-think-about-vertical-spreads/" rel="alternate" type="text/html" title="Easy way to think about vertical spreads" /><published>2020-06-01T00:00:00+00:00</published><updated>2020-06-01T00:00:00+00:00</updated><id>https://finance.adriant.io/trading/2020/06/01/easy-way-to-think-about-vertical-spreads</id><content type="html" xml:base="https://finance.adriant.io/trading/2020/06/01/easy-way-to-think-about-vertical-spreads/">&lt;p&gt;As a beginner in options trading, you’re likely to start out only buying calls and puts. Selling naked calls or puts is extremely risky and an easy way to blow up your account, while other basic strategies like the covered call and cash covered put require larger amounts of capital. Buying calls and puts is an easy way to get your feet wet with the options trading game, and requires a relatively small amount of capital compared to the potential gains.&lt;/p&gt;
+
+&lt;p&gt;Position sizing is also an important aspect of risk management in options trading. In other words, you should be comfortable losing some maximum dollar amount for a single options trade. Since options prices are proportional to their underlying stock prices, buying options for higher priced stocks can disproportionately expose the portfolio to increased risk toward these higher priced stocks.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this point let’s look at an example. Slack (WORK) is currently trading around $35, and its at-the-money calls expiring next week are trading between $2 and $3, whereas Chipotle (CMG) is currently trading around $1050, and its at-the-money calls expiring next week are valued between $10 and $15. In this case, you would have to spend between $200 to $300 to buy the WORK call, but you would be looking at between $1000 to $1500 to buy the CMG call. The options prices would increase even more when you start looking at options with expiration dates further out.&lt;/p&gt;
+
+&lt;p&gt;So what’s the answer here? You can’t buy less than one options contract, or a fraction of a contract. You could stick to only buying options contracts that are within your budget. But there’s a better option here (no pun intended) and it is the &lt;strong&gt;vertical spread&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;vertical-spread&quot;&gt;Vertical Spread&lt;/h2&gt;
+
+&lt;p&gt;Spreads don’t have to be complicated, but they may feel that way after looking at all the variations and charts depicting profit-loss potential. There is actually a really easy way to reason about spreads which is this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &lt;strong&gt;debit spread&lt;/strong&gt; is basically like buying an option but at a discount, in exchange for capping profit potential.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &lt;strong&gt;credit spread&lt;/strong&gt; is basically like selling an option but at a discount, in exchange for capping loss potential.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So when thinking about whether I want to trade a spread, I start with thinking about whether I want to buy or sell a particular option. If I want to buy an option but it’s too expensive, I’ll use a debit spread to discount the purchase while accepting that my max profit will be capped. If I want to sell an option, I’ll use a credit spread, accepting that my initial credit is reduced in exchange for putting a cap on my maximum loss.&lt;/p&gt;
+
+&lt;p&gt;Let’s take a look at a &lt;strong&gt;debit spread&lt;/strong&gt; as an example.&lt;/p&gt;
+
+&lt;h3 id=&quot;debit-spread&quot;&gt;Debit Spread&lt;/h3&gt;
+
+&lt;p&gt;A &lt;strong&gt;debit&lt;/strong&gt; means that the end result is that you bought or paid for something. Think about a debit spread as buying an option at a discount, in exchange for putting a cap on your maximum profit. To construct the debit spread, buy one option and sell a further out-the-money option with the same expiration date. You basically discount the long call by the price of the short call. The maximum profit is the difference in strike prices, less the debit paid.&lt;/p&gt;
+
+&lt;p&gt;Consider the following example.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/cmg-bull-call-spread.png&quot;&gt;&lt;img src=&quot;/assets/img/cmg-bull-call-spread.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Suppose I have bullish outlook on CMG and I want to buy the CMG 1055 call expiring next week for $14.50. The cost for the call option is $1450, more than I am comfortable with for a single position, so I’m going modify this trade by turning it into a debit call spread, also known as a bull call spread.&lt;/p&gt;
+
+&lt;p&gt;To create a spread, I might buy the 1055 call for $14.50 and sell the 1065 call for $9.30. My net debit would then be &lt;strong&gt;$520&lt;/strong&gt; = ($14.50 - $9.30) x 100. My maximum profit would be &lt;strong&gt;$480&lt;/strong&gt; = ($1065 - $1055) x 100 - $520. Since I am basically long the debit spread, my max loss is just the premium paid.&lt;/p&gt;
+
+&lt;p&gt;A debit put spread, or bear put spread is basically the same idea as the bull call spread, where you find a put option you want to buy and then modify it into a debit put spread by selling a further OTM put.&lt;/p&gt;
+
+&lt;h3 id=&quot;credit-spread&quot;&gt;Credit Spread&lt;/h3&gt;
+
+&lt;p&gt;A &lt;strong&gt;credit&lt;/strong&gt; means that you receive money when you open the position. Your profit would be determined by whether you can close out that position for less than what you initially received. A credit spread is a selling strategy, just like selling a call or a put. Selling strategies allow you to take advantage of time decay and can be more attractive than buying strategies when premiums are higher than they should be. Unfortunately, selling naked options will expose your portfolio to the risk of substantial losses, and the only other basic selling strategies, the covered call and cash-covered put, require much more capital than buying strategies.&lt;/p&gt;
+
+&lt;p&gt;The credit spread addresses both of these drawbacks, allowing us to consider sell strategies while maintaining lower capital outlays. To construct a credit spread, sell one option and buy a further out-the-money option with the same expiration date. You can think of the long option as a kind of insurance which caps your losses if the stock price moves against you. The maximum profit of the trade is the net credit received from the trade and is only realized when both the options expire worthless. The maximum loss of this strategy is the difference in strike prices less the credit received.&lt;/p&gt;
+
+&lt;p&gt;Let’s take a look at an example with CMG again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/cmg-bear-call-spread.png&quot;&gt;&lt;img src=&quot;/assets/img/cmg-bear-call-spread.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Suppose we have a bearish outlook on CMG and are looking to sell the June 1st 1040 call to receive a premium of $99. We would receive a $9900 credit, but we would also be exposing our portfolio to substantial losses if CMG stock price moves up significantly. To limit those losses, we could pair the short call with a further out-the-money long call like the 1060 call for $88.70. Our net credit would be reduced to &lt;strong&gt;$1030&lt;/strong&gt; = ($99 - $88.70) x 100, but our max loss would also be capped to &lt;strong&gt;$970&lt;/strong&gt; = ($1060-$1040) x 100 - $1030.&lt;/p&gt;
+
+&lt;p&gt;A bull put spread could be similarly constructed by selling a put and buying a further OTM put.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;There are essentially four basic ways to trade spreads. Remember that each spread strategy is simply an extension of buying or selling a call or put. This table summarizes which spread corresponds to which unmodified strategy.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;paired with&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;spread&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;credit or debit&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;long call&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;short further otm call&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bull call spread&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;debit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;long put&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;short further otm put&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bear put spread&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;debit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;short call&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;long further otm call&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bear call spread&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;credit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;short put&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;long further otm put&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bull put spread&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;credit&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><category term="trading" /><category term="options" /><summary type="html">As a beginner in options trading, you’re likely to start out only buying calls and puts. Selling naked calls or puts is extremely risky and an easy way to blow up your account, while other basic strategies like the covered call and cash covered put require larger amounts of capital. Buying calls and puts is an easy way to get your feet wet with the options trading game, and requires a relatively small amount of capital compared to the potential gains. Position sizing is also an important aspect of risk management in options trading. In other words, you should be comfortable losing some maximum dollar amount for a single options trade. Since options prices are proportional to their underlying stock prices, buying options for higher priced stocks can disproportionately expose the portfolio to increased risk toward these higher priced stocks. To illustrate this point let’s look at an example. Slack (WORK) is currently trading around $35, and its at-the-money calls expiring next week are trading between $2 and $3, whereas Chipotle (CMG) is currently trading around $1050, and its at-the-money calls expiring next week are valued between $10 and $15. In this case, you would have to spend between $200 to $300 to buy the WORK call, but you would be looking at between $1000 to $1500 to buy the CMG call. The options prices would increase even more when you start looking at options with expiration dates further out. So what’s the answer here? You can’t buy less than one options contract, or a fraction of a contract. You could stick to only buying options contracts that are within your budget. But there’s a better option here (no pun intended) and it is the vertical spread.</summary></entry><entry><title type="html">Buy SaaS companies during the pandemic</title><link href="https://finance.adriant.io/investing/2020/05/22/buy-saas-companies-during-the-pandemic/" rel="alternate" type="text/html" title="Buy SaaS companies during the pandemic" /><published>2020-05-22T00:00:00+00:00</published><updated>2020-05-22T00:00:00+00:00</updated><id>https://finance.adriant.io/investing/2020/05/22/buy-saas-companies-during-the-pandemic</id><content type="html" xml:base="https://finance.adriant.io/investing/2020/05/22/buy-saas-companies-during-the-pandemic/">&lt;p&gt;During the Covid-19 pandemic, certain industries have been hit harder than others. Many companies in the retail, airline, oil and banking industries are all down more than 50% from their 2020 highs in February. But while the Covid-19 virus has wreaked havoc on some industries, others such as cloud software and biopharma are thriving more than ever.&lt;/p&gt;
+
+&lt;p&gt;As a software developer, I am seeing first-hand how my company has not only been insulated from the economic damage of the pandemic, but is actually thriving during this tumultuous time. Many of the SaaS (Software-as-a-service) platforms that our company uses are more popular than ever. Businesses have been forced to undergo rapid digital transformation in order to adapt to the current state of the world. and because of that there is huge potential for growth in many of these cloud software companies.&lt;/p&gt;
+
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;not-all-tech-companies-alike&quot;&gt;Not all tech companies alike&lt;/h2&gt;
+&lt;p&gt;Tech companies like Uber, Lyft, Yelp, and Airbnb have all been hit especially hard by the pandemic due to stay-at-home orders. These companies will likely continue to face headwinds until people begin to feel that it is safe to go out again, which may take months at best, and at worst could bleed over well into 2021.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile tech companies whose sales primarily come from business customers are thriving. Zoom’s skyrocketting popularity was largely due to its appeal with individual users, but sales still come primarily from businesses. Now you have all these SaaS stocks like Shopify, Datadog, Fastly, and Twilio, which are undergoing similar levels of growth as Zoom, if not more, yet many of these companies are not well known by people outside the tech space.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-bet-on-the-pandemic-and-dont-bet-against-it&quot;&gt;Don’t bet on the pandemic and don’t bet against it&lt;/h2&gt;
+&lt;p&gt;We don’t know how long the pandemic will last. Even as businesses start to reopen, there is the risk and uncertainty of a second outbreak in the Fall during flu season, which could cause states to go into lockdown once more. Consumer demand for travel and entertainment may be suppressed for years moving forward. On the other hand, with a vaccine seemingly on the horizon from Moderna, this pandemic may also be over faster than we anticipate.&lt;/p&gt;
+
+&lt;p&gt;Rather than bet on that uncertainty, I would rather make a bet that cloud software companies are going to come out stronger than ever in the aftermath of all this, regardless of how long it takes for things to go back to normal in a post-pandemic world. The cultural attitude around remote work has changed permanently, as companies like Twitter are allowing their employees to “work from home forever”. Businesses who have started their digital evolution will lean into an ecosystem of SaaS offerings, and it will become difficult for them to justify undoing that transformation.&lt;/p&gt;
+
+&lt;h2 id=&quot;are-we-in-a-bubble&quot;&gt;Are we in a bubble?&lt;/h2&gt;
+&lt;p&gt;I don’t think so — at least not yet anyway. While the valuations of many of these companies has skyrocketted to all-time highs, it may be justified as they will continue to beat revenue and earnings expectations, and accelerate customer acquisition over the next few years. Their markets are far from saturated and there is plenty of room for growth.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;Solid companies that have comprised most of the gains in the S&amp;amp;P500 index include the FANGMA stocks (FB, AAPL, NFLX, GOOG, MSFT, AMZN). Non-megacap companies that I’m following and willing to make bullish bets on include WORK, ZM, WDAY, NEWR, DDOG, FSLY, TWLO, OKTA, NOW, FIVN, SPLK, PD, SHOP, DOCU, and MDB.&lt;/p&gt;</content><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><category term="investing" /><category term="stocks" /><category term="options" /><category term="tech" /><category term="saas" /><category term="covid19" /><category term="opinion" /><category term="trending" /><summary type="html">During the Covid-19 pandemic, certain industries have been hit harder than others. Many companies in the retail, airline, oil and banking industries are all down more than 50% from their 2020 highs in February. But while the Covid-19 virus has wreaked havoc on some industries, others such as cloud software and biopharma are thriving more than ever. As a software developer, I am seeing first-hand how my company has not only been insulated from the economic damage of the pandemic, but is actually thriving during this tumultuous time. Many of the SaaS (Software-as-a-service) platforms that our company uses are more popular than ever. Businesses have been forced to undergo rapid digital transformation in order to adapt to the current state of the world. and because of that there is huge potential for growth in many of these cloud software companies.</summary></entry><entry><title type="html">Useful resources for finding and selecting dividend growth stocks</title><link href="https://finance.adriant.io/investing/2018/10/02/useful-resources-for-finding-and-selecting-dividend-growth-stocks/" rel="alternate" type="text/html" title="Useful resources for finding and selecting dividend growth stocks" /><published>2018-10-02T00:00:00+00:00</published><updated>2018-10-02T00:00:00+00:00</updated><id>https://finance.adriant.io/investing/2018/10/02/useful-resources-for-finding-and-selecting-dividend-growth-stocks</id><content type="html" xml:base="https://finance.adriant.io/investing/2018/10/02/useful-resources-for-finding-and-selecting-dividend-growth-stocks/">&lt;p&gt;Over the last few years, I’ve expanded my investment strategy to include dividend growth investing in addition to index fund investing. Here are several websites that I use for finding and selecting dividend growth stocks. Many of these sites are not limited to only dividend growth stocks, but are great for general security analysis as well.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;list-of-resources&quot;&gt;List of resources&lt;/h2&gt;
+
+&lt;h3 id=&quot;david-fishes-ccc-list&quot;&gt;David Fishe’s CCC List&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;http://www.dripinvesting.org/tools/tools.asp&quot;&gt;http://www.dripinvesting.org/tools/tools.asp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;David Fishe originally created the CCC List which is now maintained and updated monthly at dripinvesting.org. In order to understand what the CCC list is, it is helpful to know what the Dividend Aristocrats are.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/S%26P_500_Dividend_Aristocrats&quot;&gt;Dividend Aristocrats&lt;/a&gt; are members of the S&amp;amp;P500 that have increased their dividend payouts for 25 consecutive years or more. Studies have shown that companies that increase their dividend payouts have better returns and do so with less risk than companies that do not. Dividend Aristocrats are reevaluated each year so that companies reaching their 25th year of consecutive dividend payment increase are added to the list, while companies that reduce or cut their dividends are removed from the list.&lt;/p&gt;
+
+&lt;p&gt;Similarly, Dividend Achievers are members of the S&amp;amp;P500 that have increased dividend payouts for at least 10 consecutive years.&lt;/p&gt;
+
+&lt;p&gt;Dividend Champions are companies (not necessarily part of the S&amp;amp;P500) that have increased their dividend payouts for at least 25 consecutive years. It thus follows that all aristocrats are champions, but not all champions are aristocrats.&lt;/p&gt;
+
+&lt;p&gt;Dividend Contenders are companies that have increased their dividend payouts for at least 10 consecutive years.&lt;/p&gt;
+
+&lt;p&gt;Dividend Challengers are companies that have increased their dividend payouts for at least 5 consecutive years.&lt;/p&gt;
+
+&lt;p&gt;David Fishe’s CCC list is a ranked list of U.S. Dividend Champions, Contenders, and Challengers.&lt;/p&gt;
+
+&lt;!-- I've built a website &lt;https://drip.tengamnuay.me&gt; which sources the spreadsheet and further filters the list to eliminate companies which don't meet my personal criteria. I typically use this as a starting point for finding dividend stocks.
+
+Feel free to check it out and use it as well if you like. --&gt;
+
+&lt;h3 id=&quot;yahoo-finance&quot;&gt;Yahoo Finance&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://finance.yahoo.com/quote/AAPL/&quot;&gt;https://finance.yahoo.com/quote/AAPL/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Yahoo finance is perhaps one of the most well known and commonly used stock analysis tools, and for good reason. Here are some of the sections that I pay close attention to when analyzing a stock.&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+&lt;p&gt;The summary is pretty straightforward and provides a snapshot of relevant information. From here I can see a snapshot of yield, PE ratio, 52 week range, EPS, and more.
+&lt;a href=&quot;/assets/img/yahoo-finance-summary.png&quot;&gt;&lt;img src=&quot;/assets/img/yahoo-finance-summary.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;statistics&quot;&gt;Statistics&lt;/h4&gt;
+&lt;p&gt;The statistics section provides some more detailed information that can be important when taking a closer look at a company. Several price ratios besides the PE ratio can be viewed here.
+&lt;a href=&quot;/assets/img/yahoo-finance-statistics.png&quot;&gt;&lt;img src=&quot;/assets/img/yahoo-finance-statistics.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;analysis&quot;&gt;Analysis&lt;/h4&gt;
+&lt;p&gt;I particularly like the analysis section on Yahoo finance. Here you can compare analyst price targets, buy/sell recommendations, and earnings forecasts.
+&lt;a href=&quot;/assets/img/yahoo-finance-analysis.png&quot;&gt;&lt;img src=&quot;/assets/img/yahoo-finance-analysis.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/assets/img/yahoo-finance-est-growth.png&quot;&gt;&lt;img src=&quot;/assets/img/yahoo-finance-est-growth.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fidelity&quot;&gt;Fidelity&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://snapshot.fidelity.com/fidresearch/snapshot/landing.jhtml#/research?symbol=AAPL&quot;&gt;https://snapshot.fidelity.com/fidresearch/snapshot/landing.jhtml#/research?symbol=AAPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fidelity has an excellent research dashboard which I use frequently for valuation and dividend analysis. Unfortunately you need to have an account with Fidelity to access the more useful upgraded dashboard. Here are a few of my favorite features from the dashboard.&lt;/p&gt;
+
+&lt;h4 id=&quot;dividend-analysis&quot;&gt;Dividend Analysis&lt;/h4&gt;
+&lt;p&gt;This section works great as a one-stop shop for dividend analysis due to its concise overview of dividend statistics like current and previous dividend payout ratio, yield, dividend growth, and ex-div date. You can also view historical dividend payments by clicking on the “more” button.
+&lt;a href=&quot;/assets/img/fidelity-research-dividends.jpg&quot;&gt;&lt;img src=&quot;/assets/img/fidelity-research-dividends.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fundamental-analysis&quot;&gt;Fundamental Analysis&lt;/h4&gt;
+&lt;p&gt;This section gives me the 10,000 ft. view of company fundamentals and whether there are any issues I should be taking a closer look at.
+&lt;a href=&quot;/assets/img/fidelity-research-fundamentals.jpg&quot;&gt;&lt;img src=&quot;/assets/img/fidelity-research-fundamentals.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;top-competitors&quot;&gt;Top Competitors&lt;/h4&gt;
+&lt;p&gt;The top competitors section is another way for me to get a feel for whether the company is undervalued relative to the industry. Be aware that this could be misleading if the entire industry is overvalued.
+&lt;a href=&quot;/assets/img/fidelity-research-top-competitors.jpg&quot;&gt;&lt;img src=&quot;/assets/img/fidelity-research-top-competitors.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;earnings&quot;&gt;Earnings&lt;/h4&gt;
+&lt;p&gt;The earnings section not only gives me a sense of how this company is performing relative to the industry, but it also gives me a sense of how it is performing compared to its historical average. Comparing the TTM P/E ratio to 5-year average P/E ratio can provide a good indicator for whether the company is undervalued or overvalued and which direction it is heading.
+&lt;a href=&quot;/assets/img/fidelity-research-earnings.jpg&quot;&gt;&lt;img src=&quot;/assets/img/fidelity-research-earnings.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gurufocus&quot;&gt;Gurufocus&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://www.gurufocus.com/dividend/AAPL&quot;&gt;https://www.gurufocus.com/dividend/AAPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Gurufocus dividend research page has some very useful information for dividend analysis and I haven’t found any other website which summarizes it as succinctly as gurufocus does. Here are the main sections of this page that I look at.&lt;/p&gt;
+
+&lt;h4 id=&quot;dividend-per-share-history&quot;&gt;Dividend Per Share History&lt;/h4&gt;
+&lt;p&gt;This graph shows annual per-share earnings, free cash flow, and dividend payout. Just by looking at this chart, I can see that for Apple there is a considerable buffer between free cash flow and dividend payment, which gives me confidence that the dividend payment is safe and likely to grow, even if the company falls on hard times.
+&lt;a href=&quot;/assets/img/gurufocus-dividend-div-per-share-history.png&quot;&gt;&lt;img src=&quot;/assets/img/gurufocus-dividend-div-per-share-history.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;dividend-yield-history&quot;&gt;Dividend Yield History&lt;/h4&gt;
+&lt;p&gt;Another graph I like to look at is the historical yield. When the yield is higher than its historical average, it can be a signal that the company is undervalued. Beware, higher yield can also point to more uncertainty or recent challenges which are being reflected in the stock price.
+&lt;a href=&quot;/assets/img/gurufocus-yield.png&quot;&gt;&lt;img src=&quot;/assets/img/gurufocus-yield.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dividend-history&quot;&gt;Dividend History&lt;/h3&gt;
+&lt;p&gt;The last section I like to look at on gurufocus is dividend history. From here I can see if dividend increases are accelerating or decelerating, which may require further investigation in either case.
+&lt;a href=&quot;/assets/img/gurufocus-dividend-history.png&quot;&gt;&lt;img src=&quot;/assets/img/gurufocus-dividend-history.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Though less common, special dividends, and dividends that are paid semi-annually, and annually would also be listed here. Special dividends are less likely to continue in the future so I like to know if a significant portion of a company’s current yield is coming from regular or special dividends.&lt;/p&gt;
+
+&lt;h3 id=&quot;big-safe-dividends&quot;&gt;Big Safe Dividends&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;http://www.bigsafedividends.com/quadchart.aspx&quot;&gt;http://www.bigsafedividends.com/quadchart.aspx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I picked up Charles Carlson’s &lt;em&gt;The Little Book of Big Dividends: A Safe Formula for Guaranteed Returns&lt;/em&gt; on Audible, and I think it’s a great starting point for anyone interesting in dividend investing, being that it is short, concise and not overly complex for the beginner.&lt;/p&gt;
+
+&lt;p&gt;Carlson’s basic BSD formula says to rank stocks by overall quadrix score and select companies whose payout ratio is below 60%.&lt;/p&gt;
+
+&lt;p&gt;The quadrix scores are a proprietary ranking system, but from what I can tell they rank a company’s blue-chip-ness and ability to generate reliable, consistent earnings over the long term.&lt;/p&gt;
+
+&lt;p&gt;I don’t really follow the 60% payout ratio rule since I think it can be offset by choosing companies with a proven track record of dividend payment, but I do incorporate the quadrix scores into my own rankings.&lt;/p&gt;
+
+&lt;h3 id=&quot;macrotrends&quot;&gt;Macrotrends&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://www.macrotrends.net/stocks/charts/AAPL/apple/pe-ratio&quot;&gt;https://www.macrotrends.net/stocks/charts/AAPL/apple/pe-ratio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Macrotrends is a simple and powerful website for checking historical price ratios. Some of the other resources I mentioned provide the trailing twelve month P/E ratio, forward P/E ratio and if you’re lucky the 5-year historical, but macrotrends is the only site I know of that provides a full history of price ratios.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/macrotrends-price-ratios.png&quot;&gt;&lt;img src=&quot;/assets/img/macrotrends-price-ratios.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Using these charts, you can see whether the P/E ratio, or other price ratio such as P/S, P/B, is historically low. Again, these are strong indicators that the stock is undervalued.&lt;/p&gt;
+
+&lt;h2 id=&quot;honorable-mentions&quot;&gt;Honorable Mentions&lt;/h2&gt;
+
+&lt;h3 id=&quot;ycharts&quot;&gt;YCharts&lt;/h3&gt;
+&lt;p&gt;Link: &lt;a href=&quot;https://ycharts.com/companies/AAPL&quot;&gt;https://ycharts.com/companies/AAPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;YCharts has a lot of useful data, especially for web scraping, but unfortunately this site didn’t make the list since most features are locked to registered users.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Hopefully you found some of this information useful. If you have any feedback or questions, feel free to leave me a comment below.&lt;/p&gt;
+
+&lt;p&gt;Happy investing!&lt;/p&gt;</content><author><name>Adrian Teng-Amnuay</name><email>pumpadrian@gmail.com</email></author><category term="investing" /><category term="stocks" /><category term="dividends" /><category term="drip" /><category term="resources" /><summary type="html">Over the last few years, I’ve expanded my investment strategy to include dividend growth investing in addition to index fund investing. Here are several websites that I use for finding and selecting dividend growth stocks. Many of these sites are not limited to only dividend growth stocks, but are great for general security analysis as well.</summary></entry></feed>
